@@ -37,7 +37,7 @@ t_b_v = st.number_input("Enter your total business value")
 income = st.number_input("Enter your monthly income:" , min_value=1000 , max_value=500000)
 
 
-City1 = st.selectbox("Enter your monthly income:" ,[
+City1 = st.selectbox("Enter your city name:" ,[
     "Delhi",
     "Mumbai",
     "Kolkata",
@@ -236,3 +236,4 @@ with col4:
             st.success(f"Driver has churned from the company")
         else:
             st.success("Driver has not churned from the company")
+
